@@ -1,0 +1,22 @@
+# Environment variables & API keys
+.env
+
+# Datasets and generated parsing outputs (as required by Instruction.docx)
+Datasets/
+output/
+*.db
+*.sqlite3
+*.npz
+parsed_*.json
+
+# Python & Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Project instructions & logs
+Instruction.docx
+*.log
